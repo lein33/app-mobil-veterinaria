@@ -36,11 +36,11 @@ const DetailsVacuna = ({ route, navigation }) => {
       <View>
       <Image
                 style={styles.imagen}
-                source={{ uri: 'https://i.ibb.co/SfTWxkR/plato-especial-miguel.jpg' }}
+                source={{ uri: 'https://www.paho.org/sites/default/files/styles/top_hero/public/2021-04/vaccine-safety-1500x810.jpg?h=b0b513fd&itok=icqAqx1k' }}
               />
       </View>
       <View>
-        <Text style={styles.titulo}>Consultas de la ciudad de {diagnostic.city}</Text>
+        <Text style={styles.titulo}>Vacunas de la ciudad de {diagnostic.city}</Text>
 
         <Text style={styles.textos}>{diagnostic.name}</Text>
         <Text style={styles.textos}>{diagnostic.date}</Text>
@@ -65,7 +65,7 @@ const DetailsVacuna = ({ route, navigation }) => {
           navigation.navigate('FormVacunas', { vacuna: vacuna })
         }}
       >
-        <Text style={styles.textBtn}>consulta</Text>
+        <Text style={styles.textBtn}>vacunas</Text>
 
       </Pressable>
     </View>
